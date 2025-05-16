@@ -137,7 +137,7 @@ DELETE /api/v0/users/{id}
 
 1. Clonar el repositorio
 2. Ejecutar `mvn spring-boot:run`
-3. El servicio estará disponible en `http://localhost:8080`
+3. El servicio estará disponible en `http://localhost:4010`
 
 ## Implementación Detallada
 
