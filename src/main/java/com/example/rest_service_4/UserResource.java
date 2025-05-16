@@ -5,7 +5,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import com.github.fge.jsonpatch.JsonPatch;
 import com.github.fge.jsonpatch.JsonPatchException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.core.JsonProcessingException;
 
 import java.util.List;
@@ -18,8 +17,6 @@ public class UserResource {
     @Autowired
     UserController userController;
 
-    @Autowired
-    private ObjectMapper objectMapper;
 
     @GetMapping
     public ResponseEntity<List<UserDto>> getUsers() {

@@ -7,7 +7,6 @@ import com.github.fge.jsonpatch.JsonPatchException;
 import com.fasterxml.jackson.core.JsonProcessingException;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Controller
 public class UserController {
